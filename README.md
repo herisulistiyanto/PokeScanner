@@ -6,9 +6,9 @@
 
 <br>
 
-![Map](http://i.imgur.com/u8zPO1B.png)
-![Map](http://i.imgur.com/7szBuM0.png)
-![Map](http://i.imgur.com/aHofJAV.png)
+![Login](http://i.imgur.com/P3WECeA.png)
+![Settings](http://i.imgur.com/ATj5r30.png)
+![Map](http://i.imgur.com/S0fJMjX.png)
 
 
 ## Instructions
@@ -38,6 +38,8 @@
 ## Translators
 
 We are currently looking for translators to help us translate the app to other languages!
+
+Start translating on [Crowdin](https://crowdin.com/project/poke-scanner). 
 
 - Thanya31 (Spanish)
 - Chemi (Hebrew)

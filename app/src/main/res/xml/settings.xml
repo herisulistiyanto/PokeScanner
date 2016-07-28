@@ -44,10 +44,6 @@
             android:summary="@string/show_expiration_filter_desc"
             android:key="expiration_filter"/>
         <Preference
-            android:title="@string/show_pokemon_whitelist_filter"
-            android:summary="@string/show_pokemon_whitelist_filter_desc"
-            android:key="pokemon_whitelist"/>
-        <Preference
             android:title="@string/show_pokemon_blacklist_filter"
             android:summary="@string/show_pokemon_blacklist_filter_desc"
             android:key="pokemon_blacklist"/>
@@ -59,13 +55,6 @@
 
     <PreferenceCategory
         android:title="@string/category_map_options">
-        <SwitchPreference
-            android:key="shuffleIcons"
-            android:title="@string/shuffle_icons"
-            android:summary="@string/shuffle_icons_desc"
-            android:defaultValue="false"
-            android:layout_height="match_parent"
-            android:layout_width="wrap_content" />
         <SwitchPreference
             android:key="showOnlyLured"
             android:title="@string/only_lured"
