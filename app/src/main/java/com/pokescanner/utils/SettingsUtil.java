@@ -103,7 +103,6 @@ public class SettingsUtil {
         return new Settings(
             sharedPrefs.getBoolean(ENABLE_UPDATES,true),
             sharedPrefs.getBoolean(KEY_BOUNDING_BOX, false),
-            sharedPrefs.getBoolean(KEY_LOCK_GPS, false),
             sharedPrefs.getBoolean(DRIVING_MODE, false),
             sharedPrefs.getInt(SCAN_VALUE, 4),
             sharedPrefs.getInt(SERVER_REFRESH_RATE, 1),
@@ -114,6 +113,7 @@ public class SettingsUtil {
             sharedPrefs.getBoolean(SHOW_GYMS, true),
             sharedPrefs.getBoolean(SHOW_POKESTOPS, true),
             sharedPrefs.getBoolean(KEY_OLD_MARKER, false),
+            sharedPrefs.getBoolean(SHUFFLE_ICONS, true),
             sharedPrefs.getBoolean(SHOW_LURED_POKEMON, true)
         );
     }
@@ -123,7 +123,6 @@ public class SettingsUtil {
             .edit()
             .putBoolean(ENABLE_UPDATES,settings.isUpdatesEnabled())
             .putBoolean(KEY_BOUNDING_BOX, settings.isBoundingBoxEnabled())
-            .putBoolean(KEY_LOCK_GPS, settings.isLockGpsEnabled())
             .putBoolean(DRIVING_MODE, settings.isDrivingModeEnabled())
             .putInt(SCAN_VALUE,settings.getScanValue())
             .putInt(SERVER_REFRESH_RATE, settings.getServerRefresh())
@@ -134,6 +133,7 @@ public class SettingsUtil {
             .putBoolean(SHOW_GYMS, settings.isGymsEnabled())
             .putBoolean(SHOW_POKESTOPS, settings.isPokestopsEnabled())
             .putBoolean(KEY_OLD_MARKER, settings.isUseOldMapMarker())
+            .putBoolean(SHUFFLE_ICONS, settings.isShuffleIcons())
             .putBoolean(SHOW_LURED_POKEMON, settings.isShowLuredPokemon())
             .apply();
     }
