@@ -17,7 +17,6 @@ import lombok.EqualsAndHashCode;
 public class Settings {
     boolean updatesEnabled;
     boolean boundingBoxEnabled;
-    boolean lockGpsEnabled;
     boolean drivingModeEnabled;
     int scanValue;
     int serverRefresh;
@@ -28,6 +27,7 @@ public class Settings {
     boolean gymsEnabled;
     boolean pokestopsEnabled;
     boolean useOldMapMarker;
+    boolean shuffleIcons;
     boolean showLuredPokemon;
 
     public void save(Context context) {
